@@ -1,0 +1,19 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "description": "A TypeScript app that runs playwright tests",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node dist/playwright-test.js",
+    "playwright-install": "npx playwright install"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.0",
+    "typescript": "^4.5.0"
+  },
+  "dependencies": {
+    "playwright": "^1.38.1"
+  }
+}
